@@ -102,5 +102,38 @@
 #
 # ■ Створити список цілих, що містить лише позитивні числа з першого списку.
 ####################################################################################
+# ■ Створити список цілих, що містить лише парні числа з першого списку;
+#
+# some_list_of_numbers = [-8, -3, -6, 9, 8, 1, 0, 7, -3, -3, -7, 7, 7, 1, 4, -5, 6]
+# list_of_paired_numbers = []
+# for i in range(len(some_list_of_numbers)):
+#     if some_list_of_numbers[i] != 0:
+#         if some_list_of_numbers[i] % 2 == 0:
+#             list_of_paired_numbers.append(some_list_of_numbers[i])
+#             print(list_of_paired_numbers)
 
+# ■ Створити список цілих, що містить лише непарні числа з першого списку;
+#
+# some_list_of_numbers = [-8, -3, -6, 9, 8, 1, 0, 7, -3, -3, -7, 7, 7, 1, 4, -5, 6]
+# list_of_unpaired_numbers = []
+# for i in range(len(some_list_of_numbers)):
+#     if some_list_of_numbers[i] % 2 != 0:
+#         list_of_unpaired_numbers.append(some_list_of_numbers[i])
+#         print(list_of_unpaired_numbers)
+# ■ Створити список цілих, що містить лише негативні числа з першого списку;
+#
+# some_list_of_numbers = [-8, -3, -6, 9, 8, 1, 0, 7, -3, -3, -7, 7, 7, 1, 4, -5, 6]
+# list_of_negative_numbers = []
+# for i in range(len(some_list_of_numbers)):
+#     if some_list_of_numbers[i] < 0:
+#         list_of_negative_numbers.append(some_list_of_numbers[i])
+#         print(list_of_negative_numbers)
+# ■ Створити список цілих, що містить лише позитивні числа з першого списку.
+#
+# some_list_of_numbers = [-8, -3, -6, 9, 8, 1, 0, 7, -3, -3, -7, 7, 7, 1, 4, -5, 6]
+# list_of_positive_numbers = []
+# for i in range(len(some_list_of_numbers)):
+#     if some_list_of_numbers[i] > 0:
+#         list_of_positive_numbers.append(some_list_of_numbers[i])
+#         print(list_of_positive_numbers)
 ####################################################################################
